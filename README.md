@@ -46,43 +46,44 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
-
+1.Open a new project using Quartus II.
+2.Declare the inputs and outputs inside module projname().
+3.Set the reset value using register.
+4.Use commands like begin and end to stimulate the counter.
+5.For Up counter increment the count and for Down counter decrement the count.
+6.End the verilog programming.
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: JEEVA K
+RegisterNumber:23013748
+## DOWNCOUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/ef7712e3-f7cd-463e-a906-74dd0b26dac8)
 
+## UPCOUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/37964d57-5937-4ad1-b4ab-596f9792f335)
 
+## RTL viewer:
+## DOWN COUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/cfe5fcf9-b4bd-47cd-9734-96a3505ea3e2)
 
+## UPCOUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/d49e0691-15f0-4bb6-9101-ae75ab5db73b)
 
+### TIMING DIGRAM:
+## DOWN COUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/967aa94c-c78a-4187-be4f-63801ffb2e21)
 
+## UP COUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/3def0e8c-a008-4dc6-8cd8-f78e42055a86)
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### TRUTH TABLE:
+## DOWN COUNTER:
+![image](https://github.com/JeevaMurthy/Exp-7-Synchornous-counters-/assets/147222117/fed117a0-fd99-4445-95a9-7b7c2f24d364)
 
+## UP COUNTER:
+![Uploading image.png…]()
 
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+### RESULTS :
+Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
